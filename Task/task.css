@@ -62,7 +62,7 @@ body{
 
 @font-face {
     font-family:burger3-heading-para;
-    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
 .burger3-heading-para{
       width: 340px;
