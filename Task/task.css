@@ -326,137 +326,105 @@ body {
 
 
 /*Most popular*/
-.burger3-img3 {
+.most-popular-section{
+    background: color #f2f2f2;;
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+.burger3-img3{
     display: flex;
     padding: 30px 10px 5px 10px;
+    text-align:center ;
+   justify-content: space-between;
 }
-
-.burger1 {
+.burger1{
     float: left;
-    width: 335px;
+    width: 365px;
     height: 272px;
     padding: 30px 10px 5px 10px;
-}
 
-.shadow1 {
-    width: 382px;
+    
+}
+.shadow1{
+    width: 370px;
+    height: 40px;
+  text-align: center;
+}
+.shadow2{
+    width: 378px;
     height: 40px;
     text-align: center;
 }
-
-.shadow2 {
-    width: 372px;
-    height: 40px;
-    text-align: center;
-}
-
-.burger2 {
+.burger2{
     float: left;
     width: 348px;
     height: 303px;
-    margin-left: 185px;
+    
+
+    
 }
-
-.burger3 {
-    float: right;
-    width: 340px;
-    height: 283px;
-    margin-left: 92px;
-    padding: 30px 10px 5px 10px;
-
+.burger3{
+  float: right;
+  width: 380px;
+  height: 283px;
+  padding: 30px 10px 5px 10px;
+  
 }
-
-.shadow3 {
-    width: 389px;
+.shadow3{
+    width: 380px;
     height: 40px;
-    margin-left: 20px;
     text-align: center;
+    
 }
-
 @font-face {
-    font-family: minal;
+    font-family:minal ;
     src: url(./fonts/BebasNeue-Regular.ttf);
 }
-
-.burger3-heading {
+.burger3-heading{
     font-family: minal;
     font-size: xx-large;
-    font-weight: lighter;
-    text-align: center;
-    margin-left: 50px;
     color: rgb(67, 39, 39);
-}
-
-.burger3-heading-last {
-    font-family: minal;
-    font-size: xx-large;
-    margin-left: 140px;
-    font-weight: lighter;
     text-align: center;
-    color: rgb(67, 39, 39);
 }
 
 @font-face {
-    font-family: burger3-heading-para;
-    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    font-family:burger3-heading-para;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
-
-.burger3-heading-para-2 {
-
-    font-family: burger3-heading-para;
+.burger3-heading-para{
+      width: 340px;
+      height: 50px;
+    font-family:burger3-heading-para;
     color: rgb(67, 39, 39);
     text-align: center;
-    font-weight: bold;
-}
+    font-style: normal;
+    
 
-.burger3-heading-para-3 {
-    width: 356px;
-    font-family: burger3-heading-para;
-    color: rgb(67, 39, 39);
-    text-align: center;
-    margin-left: 50px;
-    font-weight: bold;
-}
-
-.burger3-heading-first-para {
-    font-family: burger3-heading-para;
-    color: rgb(67, 39, 39);
-    text-align: center;
-    width: 356px;
-    font-weight: bold;
-
+    
 }
 
 @font-face {
     font-family: alfa;
     src: url(./fonts/AlfaSlabOne-Regular.ttf);
 }
-
-.button {
-    width: 196px;
+.button{
+    width: 175px;
     font-family: alfa;
     background-color: rgb(214, 15, 15);
     color: white;
-    text-align: center;
-    height: 57px;
     font-size: large;
-    font-weight: lighter;
+    height: 57px;
+    justify-content: center;
     border: none;
-    margin-left: 80px;
-    overflow: hidden;
+    cursor: pointer;
 }
 
-.button3 {
-    width: 196px;
-    font-family: alfa;
-    background-color: rgb(214, 15, 15);
-    color: white;
+.button:active{
+    background-color: antiquewhite;
+}
+.burger3{
     text-align: center;
-    height: 57px;
-    font-size: large;
-    border: none;
-    margin-left: 127px;
-    overflow: hidden;
 }
 
 
@@ -585,19 +553,6 @@ body {
 
 }
 
-input[type=button] {
-
-    width: 380px;
-    height: 57px;
-    margin: 2px;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    background-color: red;
-    font-size: 21px;
-    font-weight: bold;
-}
-
 .red-bottle {
     position: absolute;
     top: 210px;
@@ -619,7 +574,7 @@ input[type=button] {
 }
 
 #main .btn {
-    width: 340px;
+    width: 380px;
     height: 56px;
     outline: none;
     font-weight: bold;
@@ -644,6 +599,7 @@ input[type=button] {
 }
 
 .title h1 {
+    color: #3d2514;
     font-family: AlfaSlabOne;
 
 }
@@ -653,6 +609,7 @@ input[type=button] {
 }
 
 .title h4 {
+    color: #3d2514;
     font-family: BebasNeue;
     src: url(./icomoon/fonts/BebasNeue-Regular.ttf);
 }
@@ -734,7 +691,9 @@ a {
     font-size: 35px;
     vertical-align: sub;
 }
-
+.footer-mail_icon{
+    font-size: 29px;
+}
 .footer-icon_text {
     font-family: BebasNeue;
     font-size: 21px;
