@@ -12,6 +12,9 @@
 }
 .block1 {
  text-align: center;
+ position: relative;
+ top: 0;
+ left: 0;
  
 }
 
@@ -53,20 +56,20 @@ input[type=button]{
 }
 .red-bottle{
     position: absolute;
-    top: 172px;
+    top: 14px;
     left: -14px;
     width: 40%;
 }
 .burger-round{
     right: 800px;
     position: absolute;
-    top: 45px;
+    top: -92px;
     width: 75%;
 }
 .dish{
-    left: 1076px;
+    left: 1100px;
     position: absolute;
-    top: 205px;
+    top: 15px;
 }
 
 #main .btn
